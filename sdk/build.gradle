@@ -15,8 +15,8 @@ def getVersionName() {
 }
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion "22.0.1"
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
 
     defaultConfig {
         minSdkVersion 18
@@ -46,12 +46,12 @@ configurations {
 
 dependencies {
     compile 'com.google.guava:guava:18.0'
-    compile 'com.android.support:support-v4:22.1.1'
+    compile 'com.android.support:support-v4:23.2.0'
 
-    compile 'com.google.http-client:google-http-client:1.19.0'
-    compile 'com.google.http-client:google-http-client-android:1.19.0'
-    compile 'com.google.http-client:google-http-client-jackson2:1.19.0'
-    compile 'com.google.oauth-client:google-oauth-client:1.19.0'
+    compile 'com.google.http-client:google-http-client:1.22.0'
+    compile 'com.google.http-client:google-http-client-android:1.22.0'
+    compile 'com.google.http-client:google-http-client-jackson2:1.22.0'
+    compile 'com.google.oauth-client:google-oauth-client:1.22.0'
     compile 'com.google.code.gson:gson:2.3.1'
     compile 'com.google.code.findbugs:jsr305:3.0.0'
     compile 'com.google.protobuf:protobuf-java:2.6.1'
